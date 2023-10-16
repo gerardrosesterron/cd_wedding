@@ -2,7 +2,7 @@
 window.onload = function()
 {
     var current = new Date()
-    var wedding_date = new Date("Oct 20, 2023 00:00:00")
+    var wedding_date = new Date("Oct 16, 2023 00:00:00")
 
     if(current.getTime() < wedding_date.getTime()){
         document.getElementById("before_date").style.display = 'block';
